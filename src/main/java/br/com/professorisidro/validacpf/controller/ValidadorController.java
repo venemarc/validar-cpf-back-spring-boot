@@ -18,5 +18,10 @@ public class ValidadorController {
 		}
 		 return "{\"status\": \"invalido\"}";
 	}
-
+	
+	@GetMapping("/")
+	public String index() {
+	
+		 return "{\"mensagem\": \"api itau valida cpf turma 7c\"}";
+	}
 }
